@@ -1,0 +1,9 @@
+export(dfdt, evrunge, frunge, kmk, multirunge, nlscontour, nlsModel, plot.nlsrk, prepare, summary.nlsgrid, sys)
+  importFrom("grDevices", "colors", "rainbow")
+  importFrom("graphics", "abline", "axis", "contour", "filled.contour",
+             "lines", "par", "plot", "points", "title")
+  importFrom("stats", "fitted.values", "formula", "numericDeriv",
+             "setNames")
+  importFrom("utils", "stack")
+  S3method(plot, nlsrk)
+  S3method(summary, nlsgrid)
